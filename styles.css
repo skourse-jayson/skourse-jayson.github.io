@@ -1,0 +1,51 @@
+
+
+.home
+{
+    background: url(img/banner.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 500px;
+    max-height: 1080px;
+    height: 100vh;
+    background-attachment: fixed;
+}
+.home .title{
+    color: red;
+    font-weight: bold;
+}
+.aboutcontent img{
+    height: 300px;
+	width: 300px;
+	object-fit: cover;
+	border-radius: 100%;
+}
+.lead p{
+    text-align: justify;
+}
+.skills
+{
+    background: url(img/bg2.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 70vh;
+    background-attachment: scroll;
+    padding-top: 50px;
+}
+.skills .box{
+
+    background-color: #0dcaf0;
+    margin:5px;
+    padding:20px;
+    border-radius: 20px;
+}
+.contact{
+    background: url(img/bg3.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 70vh;
+    background-attachment: scroll;
+    padding-top: 50px;
+}
+.contact .info .head{
+	color: red;
+	font-weight: bold;
+	padding: 1px 0;
+}
